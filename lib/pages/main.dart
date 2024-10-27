@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:iiuc_student_portal/home.dart';
-import 'package:iiuc_student_portal/page_1.dart';
-import 'package:iiuc_student_portal/test.dart';
+import 'package:iiuc_student_portal/pages/home.dart';
+import 'package:iiuc_student_portal/pages/test.dart';
+
+import 'crazy_animation.dart';
+
 
 void main(){
   runApp(MyApp());
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget{
     int i = 0;
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Home(),
+      home: CrazyAnimation(),
     );
   }
 }
