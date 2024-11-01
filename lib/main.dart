@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 import 'package:iiuc_student_portal/pages/home.dart';
 import 'package:iiuc_student_portal/pages/test.dart';
 
-import 'crazy_animation.dart';
+import 'pages/crazy_animation.dart';
 
 
 void main(){
